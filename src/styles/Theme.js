@@ -4,7 +4,7 @@ import { createTheme } from '@material-ui/core/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // Primary color
+      main: '#F3FFFF', // Primary color
     },
     secondary: {
       main: '#f50057', // Secondary color
@@ -12,6 +12,9 @@ const theme = createTheme({
     // You can define additional custom colors as needed
     customColor: {
       main: '#00ff00', // Custom color
+    },
+    background: {
+      main: "#FFFFFF"
     },
   },
 });

@@ -1,8 +1,13 @@
 // About.js
+import { Container } from '@material-ui/core';
 import React from 'react';
 
 const About = () => {
-  return <h2>About Page</h2>;
+  return (
+    <Container>
+    
+    </Container>
+  )
 };
 
 export default About;
